@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CriptoCentinela</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>CriptoCentinela</h1>
+    <h2>Transforma tus palabras en códigos seguros</h2>
+  </header>
+  <div class="container">
+    <div class="input-section">
+      <textarea id="inputText" placeholder="Ingresa tu texto aquí..."></textarea>
+      <div class="buttons">
+        <button id="encryptBtn">Encriptar</button>
+        <button id="decryptBtn">Desencriptar</button>
+      </div>
+    </div>
+    <div class="output-section">
+      <textarea id="outputText" placeholder=""></textarea>
+      <button id="copyBtn">Copiar</button>
+    </div>
+  </div>
+
+  <section class="history-section">
+    <h3>Historial de conversiones</h3>
+    <ul id="historyList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
